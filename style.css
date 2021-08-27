@@ -1,5 +1,8 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  margin: 50px;
   font-family: "Raleway", sans-serif;
 }
 /*Header*/
@@ -7,12 +10,12 @@ header nav {
   display: flex;
   justify-content: space-between;
 
-  height: 100px;
+  height: 10rem;
 }
 
 nav img {
   height: 45px;
-  margin: 15px 0px 0px 1px;
+  margin: 4rem 0rem 0rem 5rem;
 }
 
 nav ul {
@@ -20,18 +23,29 @@ nav ul {
   justify-content: space-around;
 }
 nav li {
-  margin: 10px 50px 0px 25px;
+  margin: 3.5rem 5rem 0px 2.5rem;
   list-style-type: none;
 }
 nav a {
   text-decoration: none;
   color: black;
-  font-size: 16px;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 5.1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 5.1rem;
+  border-top: 0.5rem solid #deebff;
+}
+
+nav a:hover {
+  border-top: 0.5rem solid #0065fc;
 }
 
 #hebergement {
   color: #0065fc;
   font-weight: 400;
+  height: 2rem;
 }
 #s_inscrire {
   color: #0065fc;
@@ -41,12 +55,14 @@ nav a {
 
 h1 {
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
+  margin-left: 5rem;
 }
 #titre {
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 #sous_titre {
-  margin-top: 5px;
-  margin-left: 3px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  font-size: 1.5rem;
 }
