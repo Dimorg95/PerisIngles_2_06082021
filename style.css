@@ -76,22 +76,23 @@ h1 {
 
 #search i {
   font-size: 1.6rem;
-  padding: 1.3rem 1.6rem 1.6rem 2rem;
+  padding: 2rem 2rem 1.5rem 2rem;
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
   background-color: #f2f2f2;
   text-align: right;
 }
 #mysearch {
-  padding: 1.2rem 2.5rem 1.2rem 1rem;
+  padding: 2rem 2.8rem 1rem 1rem;
   border: none;
 }
 
 form {
-  border: 1px #f2f2f2 solid;
+  height: 4rem;
+  width: 39.1rem;
+  border: 1px solid #f2f2f2;
+  padding-bottom: 1rem;
   border-radius: 1.5rem;
-  height: 4.4rem;
-  width: 37rem;
 }
 
 /* Modification du place holder */
@@ -100,4 +101,17 @@ form {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: black;
+}
+
+/*Boutton recherche*/
+#button {
+  padding: 1.8rem 2.6rem 1.4rem 2.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border: none;
+  color: white;
+  background-color: #0065fc;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
 }
