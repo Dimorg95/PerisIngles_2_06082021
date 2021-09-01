@@ -135,7 +135,7 @@ form {
   color: black;
   margin-right: 1.2rem;
   border: 0.2rem solid #dbdbdb;
-  padding: 1rem 0.2rem 1.2rem 0rem;
+  padding: 1rem 2rem 1.2rem 0rem;
   border-radius: 3rem;
   margin-right: 3rem;
   font-weight: 900;
@@ -151,5 +151,7 @@ form {
 }
 #filtres {
   font-weight: 800;
+  padding-top: 1rem;
 }
-/*Commentaire en desous des filtres*/
+
+/*Commentaire en dessous des filtres*/
