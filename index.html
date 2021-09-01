@@ -48,14 +48,12 @@
             id="mysearch"
             placeholder="Marseille,France"
           />
-          <button type="button" value="Recherche" id="button">
-            Rechercher
-          </button>
+          <input type="button" value="Rechercher" id="button" />
         </form>
       </div>
       <!--Filtres-->
       <ul>
-        <li>Filtres</li>
+        <li id="filtres">Filtres</li>
         <li id="eco">
           <a href="#"><i class="fas fa-money-bill-wave"></i>Economique</a>
         </li>
@@ -70,11 +68,13 @@
         </li>
       </ul>
       <!--Commentaire apres filtre-->
-      <p id="com">
-        <i class="fas fa-info"
-          >Plus de 500 logements sont disponible dans cette ville</i
-        >
-      </p>
+      <div id="com">
+        <p>
+          <i class="fas fa-info"
+            >Plus de 500 logements sont disponible dans cette ville</i
+          >
+        </p>
+      </div>
     </section>
     ---
     <!--Section Article hebergements-->

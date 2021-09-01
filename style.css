@@ -118,22 +118,38 @@ form {
   font-size: 1.6rem;
   text-align: center;
 }
-/*Liste de filtres*/
+/*Liste de filtres, je n'arrive pas a bouger les text dans les li pour le centrer*/
 #preference ul {
   display: flex;
   justify-content: left;
+
   list-style-type: none;
-  padding-inline-start: 0px;
 }
 #preference ul li {
-  margin: 1.5rem 6rem 1.5rem 5.3rem;
-  font-size: 1.8rem;
-  border: 1px solid black;
+  margin: 1.5rem 1.5rem 1.5rem 1rem;
+  font-size: 1.6rem;
 }
 
-#preference ul a {
+#preference ul li a {
   text-decoration: none;
+  color: black;
+  margin-right: 1.2rem;
+  border: 0.2rem solid #dbdbdb;
+  padding: 1rem 0.2rem 1.2rem 0rem;
+  border-radius: 3rem;
+  margin-right: 3rem;
+  font-weight: 900;
 }
 #preference ul i {
-  border: 1px solid black;
+  margin-right: 1.5rem;
+  margin-left: -0.2rem;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 2.5rem;
+  font-size: 1.5rem;
+  color: #0065fc;
+  background-color: #deebff;
 }
+#filtres {
+  font-weight: 800;
+}
+/*Commentaire en desous des filtres*/
