@@ -175,3 +175,29 @@ form {
   font-size: 1.2rem;
   color: #0065fc;
 }
+/* Section hebergement + le aside*/
+#hebergements {
+  display: flex;
+  justify-content: space-between;
+}
+#lieu {
+  margin-left: 4.5rem;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100rem;
+  height: 45rem;
+}
+#lieu figure {
+  border: 1px solid black;
+  width: 23rem;
+  height: 18rem;
+}
+#lieu figure img {
+  width: 23rem;
+  height: 11rem;
+}
+#article {
+  border: 1px solid black;
+}
