@@ -116,7 +116,7 @@ form {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 1.6rem;
-  text-align: center;
+  margin-bottom: 2rem;
 }
 /*Liste de filtres, je n'arrive pas a bouger les text dans les li pour le centrer*/
 #preference ul {
@@ -180,24 +180,36 @@ form {
   display: flex;
   justify-content: space-between;
 }
-#lieu {
+#article {
+  height: 60rem;
   margin-left: 4.5rem;
-  border: 1px solid black;
+  background-color: #f2f2f2;
+  border-radius: 2.5rem;
+}
+#article h2 {
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+#lieu {
+  margin-left: 0rem;
+
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
-  width: 100rem;
+  justify-content: space-around;
+  width: 93.6rem;
   height: 45rem;
 }
 #lieu figure {
-  border: 1px solid black;
-  width: 23rem;
+  width: 22rem;
   height: 18rem;
+  border-radius: 2.5rem;
+  background-color: white;
+  padding: 0.4rem 0.4rem 0.2rem 0.4rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
 }
 #lieu figure img {
-  width: 23rem;
+  width: 22rem;
   height: 11rem;
-}
-#article {
-  border: 1px solid black;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
 }
