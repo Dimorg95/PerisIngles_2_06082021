@@ -135,10 +135,9 @@ form i {
 #filtre {
   display: flex;
   justify-content: flex-start;
+  margin-top: 2rem;
 }
 #filtre h2 {
-  border: 0.1rem solid black;
-  text-align: center;
   width: 5rem;
   height: 3rem;
   font-size: 1.6rem;
@@ -150,18 +149,20 @@ form i {
 #preference ul {
   display: flex;
   justify-content: left;
-
   list-style-type: none;
 }
 #preference ul li {
-  margin: 1.5rem 1.5rem 1.5rem 1rem;
+  width: auto;
+  height: 5rem;
+  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
   font-size: 1.6rem;
 }
 
 #preference ul li a {
   text-decoration: none;
   color: black;
-  margin-right: 1.2rem;
+  width: 20rem;
+  height: 5rem;
   border: 0.2rem solid #dbdbdb;
   padding: 1rem 2rem 1.2rem 0rem;
   border-radius: 3rem;
@@ -169,6 +170,8 @@ form i {
   font-weight: 700;
 }
 #preference ul li i {
+  width: 1.4rem;
+  height: 1.4rem;
   margin-right: 1.5rem;
   margin-left: -0.2rem;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
