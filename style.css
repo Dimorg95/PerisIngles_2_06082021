@@ -297,7 +297,12 @@ aside h2 {
   margin-top: 4rem;
   font-weight: 800;
 }
-#populaire {
+#ico {
+  margin-left: 9rem;
+  font-size: 2.1rem;
+}
+
+aside #populaire {
   height: 45rem;
   margin-top: 3rem;
   display: flex;
@@ -307,13 +312,13 @@ aside h2 {
 }
 .popu {
   border-radius: 2.5rem;
-  border-radius: 2.5rem;
   height: 13rem;
   width: 30rem;
   display: flex;
   padding: 0.4rem 0.4rem 0.4rem 0.4rem;
   background-color: white;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
+  margin-bottom: 3rem;
 }
 .popu img {
   height: 13rem;
