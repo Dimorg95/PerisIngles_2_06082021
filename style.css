@@ -269,7 +269,7 @@ form i {
 .under_img i {
   color: #0065fc;
 
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: 0.8rem;
 }
 #article button {
@@ -306,7 +306,6 @@ aside h2 {
   align-items: center;
 }
 .popu {
-  border: 1px solid black;
   border-radius: 2.5rem;
   border-radius: 2.5rem;
   height: 13rem;
@@ -314,10 +313,28 @@ aside h2 {
   display: flex;
   padding: 0.4rem 0.4rem 0.4rem 0.4rem;
   background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
 }
 .popu img {
   height: 13rem;
   width: 12rem;
   border-top-left-radius: 2.5rem;
   border-bottom-left-radius: 2.5rem;
+}
+.popu figcaption {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+.popu figcaption h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.popu figcaption p {
+  margin-top: 0.8rem;
+  font-size: 1.4rem;
+}
+.popu figcaption i {
+  margin-top: 4.5rem;
+  color: #0065fc;
+  font-size: 1.2rem;
 }
