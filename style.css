@@ -217,30 +217,32 @@ form i {
 }
 #article {
   height: 60rem;
-  margin-left: 4.5rem;
   background-color: #f2f2f2;
   border-radius: 2.5rem;
 }
 #article h2 {
   margin-left: 4rem;
   font-size: 2rem;
+  margin-top: 3rem;
+  font-weight: 800;
 }
 #lieu {
-  margin-left: 0rem;
-
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  width: 93.6rem;
+  justify-content: space-between;
+  width: 76rem;
   height: 45rem;
+  margin: 2rem;
 }
 #lieu figure {
   width: 22rem;
-  height: 17rem;
+  height: 18rem;
   border-radius: 2.5rem;
   background-color: white;
   padding: 0.4rem 0.4rem 0.3rem 0.4rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 #lieu figure img {
   width: 22rem;
@@ -250,19 +252,23 @@ form i {
 }
 .under_img {
   padding-left: 1rem;
-  font-size: 1.1rem;
 }
 .under_img h3 {
-  margin-top: 0.3rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 .under_img p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 .under_img i {
   color: #0065fc;
-  margin-bottom: 0.5;
+
+  font-size: 1.3rem;
+  margin-top: 0.8rem;
 }
 
 /*Mettre a jour la partie "Filtres" Filtres n'est pas dans la liste!,Modifier la section recherche +boutton,Enlever les bordur grise tout en haut 
