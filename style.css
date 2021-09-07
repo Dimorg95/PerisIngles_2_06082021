@@ -217,13 +217,14 @@ form i {
 }
 #article {
   height: 60rem;
+  width: 80rem;
   background-color: #f2f2f2;
   border-radius: 2.5rem;
 }
 #article h2 {
   margin-left: 4rem;
   font-size: 2rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
   font-weight: 800;
 }
 #lieu {
@@ -232,7 +233,8 @@ form i {
   justify-content: space-between;
   width: 76rem;
   height: 45rem;
-  margin: 2rem;
+  margin-top: 3rem;
+  margin-left: 2.1rem;
 }
 #lieu figure {
   width: 22rem;
@@ -270,6 +272,52 @@ form i {
   font-size: 1.3rem;
   margin-top: 0.8rem;
 }
+#article button {
+  width: auto;
+  height: auto;
+  margin-left: 4rem;
+  border: none;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 
-/*Mettre a jour la partie "Filtres" Filtres n'est pas dans la liste!,Modifier la section recherche +boutton,Enlever les bordur grise tout en haut 
-changer les section en div+modifcation avec la nouvel feuillede style*/
+  background-color: #f2f2f2;
+}
+/*Aside*/
+
+aside {
+  width: 38rem;
+  height: 60rem;
+  background-color: #f2f2f2;
+  border-radius: 2.5rem;
+}
+aside h2 {
+  margin-left: 4rem;
+  font-size: 2rem;
+  margin-top: 4rem;
+  font-weight: 800;
+}
+#populaire {
+  height: 45rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.popu {
+  border: 1px solid black;
+  border-radius: 2.5rem;
+  border-radius: 2.5rem;
+  height: 13rem;
+  width: 30rem;
+  display: flex;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  background-color: white;
+}
+.popu img {
+  height: 13rem;
+  width: 12rem;
+  border-top-left-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+}
