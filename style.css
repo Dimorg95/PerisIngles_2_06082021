@@ -343,3 +343,78 @@ aside #populaire {
   color: #0065fc;
   font-size: 1.2rem;
 }
+
+/*Section activés a Marseille*/
+#activites {
+  border: 1px solid black;
+  height: 60rem;
+  margin-top: 5rem;
+}
+#activites h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+#endroit {
+  display: flex;
+  height: 60rem;
+  width: 100%;
+  justify-content: space-between;
+}
+.full {
+  border: 1px black solid;
+  width: 27rem;
+  height: 40rem;
+  border-radius: 2.5rem;
+}
+.full img {
+  width: 27rem;
+  height: 36rem;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
+.duo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 27rem;
+  height: 40rem;
+}
+#pomegue {
+  border: 1px solid black;
+  width: 27rem;
+  height: 22rem;
+  border-radius: 2.5rem;
+}
+
+#pomegue img {
+  width: 27rem;
+  height: 18rem;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
+#frioul {
+  border: 1px solid black;
+  width: 27rem;
+  height: 15rem;
+  border-radius: 2.5rem;
+}
+#frioul img {
+  width: 27rem;
+  height: 11rem;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
+.garde {
+  border: 1px solid black;
+  width: 27rem;
+  height: 18rem;
+  border-radius: 2.5rem;
+}
+
+.garde img {
+  width: 27rem;
+  height: 14rem;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
