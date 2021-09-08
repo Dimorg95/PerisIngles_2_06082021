@@ -421,3 +421,33 @@ aside #populaire {
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: left;
+  height: 20rem;
+  margin-top: 5rem;
+  margin-left: -5rem;
+  margin-bottom: -4rem;
+  margin-right: -5rem;
+  background-color: #f2f2f2;
+}
+.liste {
+  margin-right: 17rem;
+  margin-left: 5rem;
+}
+.liste h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+.liste ul li {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+.liste a {
+  text-decoration: none;
+  color: black;
+}
