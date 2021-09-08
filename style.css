@@ -346,8 +346,6 @@ aside #populaire {
 
 /*Section activés a Marseille*/
 #activites {
-  border: 1px solid black;
-  height: 60rem;
   margin-top: 5rem;
 }
 #activites h2 {
@@ -362,10 +360,10 @@ aside #populaire {
   justify-content: space-between;
 }
 .full {
-  border: 1px black solid;
   width: 27rem;
   height: 40rem;
   border-radius: 2.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
 }
 .full img {
   width: 27rem;
@@ -381,10 +379,10 @@ aside #populaire {
   height: 40rem;
 }
 #pomegue {
-  border: 1px solid black;
   width: 27rem;
   height: 22rem;
   border-radius: 2.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
 }
 
 #pomegue img {
@@ -394,10 +392,10 @@ aside #populaire {
   border-top-right-radius: 2.5rem;
 }
 #frioul {
-  border: 1px solid black;
   width: 27rem;
   height: 15rem;
   border-radius: 2.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
 }
 #frioul img {
   width: 27rem;
@@ -406,10 +404,10 @@ aside #populaire {
   border-top-right-radius: 2.5rem;
 }
 .garde {
-  border: 1px solid black;
   width: 27rem;
   height: 18rem;
   border-radius: 2.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
 }
 
 .garde img {
