@@ -34,7 +34,7 @@ nav a {
   color: black;
   font-size: 1.5rem;
   margin-top: 1rem;
-  padding-top: 3.5rem;
+  padding-top: 4.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -355,19 +355,24 @@ aside #populaire {
 }
 #endroit {
   display: flex;
-  height: 60rem;
-  width: 100%;
+
   justify-content: space-between;
+}
+#endroit figcaption {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 .full {
   width: 27rem;
   height: 40rem;
   border-radius: 2.5rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.146);
 }
 .full img {
   width: 27rem;
-  height: 36rem;
+  height: 35rem;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
@@ -382,12 +387,12 @@ aside #populaire {
   width: 27rem;
   height: 22rem;
   border-radius: 2.5rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.146);
 }
 
 #pomegue img {
   width: 27rem;
-  height: 18rem;
+  height: 17rem;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
@@ -395,11 +400,11 @@ aside #populaire {
   width: 27rem;
   height: 15rem;
   border-radius: 2.5rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.146);
 }
 #frioul img {
   width: 27rem;
-  height: 11rem;
+  height: 10rem;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
@@ -407,12 +412,12 @@ aside #populaire {
   width: 27rem;
   height: 18rem;
   border-radius: 2.5rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.312);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.146);
 }
 
 .garde img {
   width: 27rem;
-  height: 14rem;
+  height: 13rem;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
