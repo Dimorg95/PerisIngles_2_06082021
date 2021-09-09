@@ -93,7 +93,7 @@ form i {
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
   background-color: #f2f2f2;
-  margin: auto;
+
   vertical-align: middle;
 }
 /*champ de recherche*/
@@ -101,7 +101,6 @@ form i {
   border: none;
   height: 3.9rem;
   width: 22rem;
-  margin: auto;
 }
 
 /* Modification du place holder */
@@ -127,13 +126,10 @@ form i {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 1.6rem;
-  margin: auto;
-  text-align: center;
 }
 /*Liste de filtres, je n'arrive pas a bouger les text dans les li pour le centrer*/
 #filtre {
   display: flex;
-  justify-content: flex-start;
   margin-top: 2rem;
 }
 #filtre h2 {
@@ -147,11 +143,8 @@ form i {
 }
 #preference ul {
   display: flex;
-  justify-content: left;
-  list-style-type: none;
 }
 #preference ul li {
-  width: auto;
   height: 5rem;
   margin: 1.5rem 1.5rem 1.5rem 1.5rem;
   font-size: 1.6rem;
@@ -192,8 +185,7 @@ form i {
 #com {
   font-size: 1.4rem;
   font-weight: 400;
-  width: 50rem;
-  height: 3rem;
+
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
@@ -201,7 +193,7 @@ form i {
 #com i {
   border: 0.1rem solid #deebff;
   margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
+
   width: 2.5rem;
   text-align: center;
   height: 2.5rem;
@@ -437,15 +429,15 @@ footer {
   margin-left: 5rem;
 }
 .liste h2 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 700;
   margin-top: 4.5rem;
   margin-bottom: 1.5rem;
 }
 .liste ul li {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .liste a {
   text-decoration: none;
