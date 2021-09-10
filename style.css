@@ -185,7 +185,6 @@ form i {
 #com {
   display: flex;
   align-items: center;
-
   font-size: 1.4rem;
   font-weight: 400;
   margin-top: 2rem;
@@ -199,6 +198,9 @@ form i {
   border-radius: 2.5rem;
   font-size: 1.4rem;
   color: #0065fc;
+}
+#com p {
+  margin-left: 1rem;
 }
 /* Section hebergement + le aside*/
 #hebergements {
@@ -256,12 +258,16 @@ form i {
   font-size: 1.4rem;
   font-weight: 400;
 }
+
 .under_img i {
   color: #0065fc;
-
   font-size: 1.2rem;
   margin-top: 0.8rem;
 }
+.empty_stars {
+  color: #dbdbdb;
+}
+
 #article button {
   width: auto;
   height: auto;
