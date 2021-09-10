@@ -84,17 +84,17 @@ form {
 
   border-radius: 1.5rem;
 }
-
+.fa-map-marker-alt {
+  line-height: 4.1rem;
+}
 form i {
   font-size: 1.6rem;
-  height: 4.1rem;
+  line-height: 4.1rem;
   width: 5rem;
   text-align: center;
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
   background-color: #f2f2f2;
-
-  vertical-align: middle;
 }
 /*champ de recherche*/
 #mysearch {
@@ -183,23 +183,21 @@ form i {
 /*Commentaire en dessous des filtres*/
 
 #com {
+  display: flex;
+  align-items: center;
+
   font-size: 1.4rem;
   font-weight: 400;
-
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
-
 #com i {
   border: 0.1rem solid #deebff;
-  margin-right: 0.5rem;
-
-  width: 2.5rem;
+  width: 3rem;
   text-align: center;
-  height: 2.5rem;
-  vertical-align: middle;
+  line-height: 3rem;
   border-radius: 2.5rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #0065fc;
 }
 /* Section hebergement + le aside*/
