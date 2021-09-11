@@ -156,19 +156,19 @@ form i {
   width: 20rem;
   height: 5rem;
   border: 0.2rem solid #dbdbdb;
-  padding: 1rem 2rem 1.2rem 0rem;
+  padding: 1rem 2rem 1rem 0rem;
   border-radius: 3rem;
 
   font-weight: 700;
 }
 #preference ul li i {
-  width: 1.4rem;
-  height: 1.6rem;
+  width: 4.4rem;
+  line-height: 4.4rem;
   margin-right: 1.5rem;
   margin-left: -0.3rem;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+
   border-radius: 2.5rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #0065fc;
   background-color: #deebff;
   text-align: center;
