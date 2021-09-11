@@ -241,6 +241,7 @@ form i {
 #lieu figure img {
   width: 22rem;
   height: 11rem;
+  object-fit: cover;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
@@ -319,6 +320,7 @@ aside #populaire {
 .popu img {
   height: 13rem;
   width: 12rem;
+  object-fit: cover;
   border-top-left-radius: 2.5rem;
   border-bottom-left-radius: 2.5rem;
 }
@@ -363,12 +365,14 @@ aside #populaire {
 .full {
   width: 27rem;
   height: 40rem;
+
   border-radius: 2.5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.146);
 }
 .full img {
   width: 27rem;
   height: 35rem;
+  object-fit: cover;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
@@ -389,6 +393,7 @@ aside #populaire {
 #pomegue img {
   width: 27rem;
   height: 17rem;
+  object-fit: cover;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
@@ -401,6 +406,7 @@ aside #populaire {
 #frioul img {
   width: 27rem;
   height: 10rem;
+  object-fit: cover;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
@@ -414,6 +420,7 @@ aside #populaire {
 .garde img {
   width: 27rem;
   height: 13rem;
+  object-fit: cover;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
 }
