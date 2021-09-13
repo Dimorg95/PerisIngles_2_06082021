@@ -145,28 +145,28 @@ form i {
   display: flex;
 }
 #preference ul li {
-  height: 5rem;
+  height: 4.2rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  border: 0.2rem solid #dbdbdb;
+  border-radius: 2.5rem;
+  border-left: none;
   margin: 1.5rem 1.5rem 1.5rem 1.5rem;
-  font-size: 1.6rem;
 }
 
 #preference ul li a {
   text-decoration: none;
   color: black;
-  width: 20rem;
-  height: 5rem;
-  border: 0.2rem solid #dbdbdb;
-  padding: 1rem 2rem 1rem 0rem;
-  border-radius: 3rem;
-
+  font-size: 1.5rem;
   font-weight: 700;
+  padding-right: 2rem;
 }
 #preference ul li i {
   width: 4.4rem;
-  line-height: 4.4rem;
+  line-height: 4.5rem;
   margin-right: 1.5rem;
-  margin-left: -0.3rem;
-
+  margin-left: -0.1rem;
   border-radius: 2.5rem;
   font-size: 1.8rem;
   color: #0065fc;
@@ -178,6 +178,7 @@ form i {
   text-decoration: underline;
   color: #f2f2f2;
   background: #0065fc;
+  border-radius: 2.5rem;
 }
 
 /*Commentaire en dessous des filtres*/
