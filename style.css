@@ -5,7 +5,7 @@ html {
 body {
   font-family: "Raleway", sans-serif;
 
-  padding: 5rem 5rem 4rem 5rem;
+  padding: 4rem 5rem 4rem 5rem;
 }
 /*Header*/
 header nav {
@@ -30,11 +30,12 @@ nav li {
 }
 /*Lien header*/
 nav a {
+  border-top: 0.3rem solid transparent;
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
   margin-top: 1rem;
-  padding-top: 4.5rem;
+  padding-top: 3.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -262,10 +263,10 @@ form i {
 
 .under_img i {
   color: #0065fc;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-top: 0.8rem;
 }
-.under_img i .empty_stars {
+.under_img i.empty_stars {
   color: #dbdbdb;
 }
 
@@ -339,7 +340,10 @@ aside #populaire {
 .popu figcaption i {
   margin-top: 4.5rem;
   color: #0065fc;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+.popu figcaption i.grey_stars {
+  color: #dbdbdb;
 }
 
 /*Section activés a Marseille*/
