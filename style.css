@@ -89,7 +89,6 @@ form {
 }
 form i {
   font-size: 1.6rem;
-  line-height: 4.1rem;
   width: 5rem;
   text-align: center;
   border-top-left-radius: 1.5rem;
@@ -101,6 +100,7 @@ form i {
   border: none;
   height: 3.9rem;
   width: 22rem;
+  margin: auto;
 }
 
 /* Modification du place holder */
@@ -109,8 +109,7 @@ form i {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: black;
-  text-align: left;
-  vertical-align: center;
+  margin: auto;
   padding-left: 1rem;
 }
 
@@ -145,7 +144,7 @@ form i {
   display: flex;
 }
 #preference ul li {
-  height: 4.2rem;
+  height: 4rem;
   width: auto;
   display: flex;
   align-items: center;
@@ -164,7 +163,7 @@ form i {
 }
 #preference ul li i {
   width: 4.4rem;
-  line-height: 4.5rem;
+  line-height: 4.3rem;
   margin-right: 1.5rem;
   margin-left: -0.1rem;
   border-radius: 2.5rem;
@@ -266,7 +265,7 @@ form i {
   font-size: 1.2rem;
   margin-top: 0.8rem;
 }
-.empty_stars {
+.under_img i .empty_stars {
   color: #dbdbdb;
 }
 
