@@ -85,17 +85,21 @@ form {
 
   border-radius: 1.5rem;
 }
+#bidon {
+  display: flex;
+  background-color: #f2f2f2;
+  height: 100%;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  align-items: center;
+}
 .fa-map-marker-alt {
   line-height: 4.1rem;
 }
 form i {
   font-size: 1.6rem;
   width: 5rem;
-
   text-align: center;
-  border-top-left-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-  background-color: #f2f2f2;
 }
 /*champ de recherche*/
 #mysearch {
@@ -131,16 +135,13 @@ form i {
 /*Liste de filtres, je n'arrive pas a bouger les text dans les li pour le centrer*/
 #filtre {
   display: flex;
+  align-items: center;
   margin-top: 2rem;
 }
 #filtre h2 {
-  width: 5rem;
-  height: 3rem;
   font-size: 1.6rem;
   font-weight: 600;
   margin-right: 1.5rem;
-  margin-top: 3rem;
-  padding-top: 0.1rem;
 }
 #preference ul {
   display: flex;
@@ -225,10 +226,11 @@ form i {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 76rem;
+  width: auto;
   height: 45rem;
   margin-top: 3rem;
-  margin-left: 2.1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 #lieu figure {
   width: 22rem;
