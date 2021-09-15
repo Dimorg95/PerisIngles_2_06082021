@@ -45,15 +45,15 @@ nav a:hover {
   border-top: 0.3rem solid #0065fc;
 }
 
-#hebergement {
+#accomodation {
   color: #0065fc;
   font-weight: 500;
 }
-#s_inscrire {
+#to_register {
   color: #0065fc;
   font-weight: 700;
 }
-#activite {
+#activity {
   font-weight: 500;
 }
 /*Champ de recherche et preference*/
@@ -66,10 +66,10 @@ h1 {
   font-weight: 800;
   font-size: 2.1rem;
 }
-#titre {
+#title {
   margin-bottom: 0rem;
 }
-#sous_titre {
+#sub_title {
   margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 500;
@@ -85,7 +85,7 @@ form {
 
   border-radius: 1.5rem;
 }
-#bidon {
+#center {
   display: flex;
   background-color: #f2f2f2;
   height: 100%;
@@ -93,9 +93,7 @@ form {
   border-bottom-left-radius: 1.5rem;
   align-items: center;
 }
-.fa-map-marker-alt {
-  line-height: 4.1rem;
-}
+
 form i {
   font-size: 1.6rem;
   width: 5rem;
@@ -132,13 +130,13 @@ form i {
   font-weight: 600;
   font-size: 1.6rem;
 }
-/*Liste de filtres, je n'arrive pas a bouger les text dans les li pour le centrer*/
-#filtre {
+/*Liste de filtres et de preference*/
+#filter {
   display: flex;
   align-items: center;
   margin-top: 2rem;
 }
-#filtre h2 {
+#filter h2 {
   font-size: 1.6rem;
   font-weight: 600;
   margin-right: 1.5rem;
@@ -205,8 +203,8 @@ form i {
 #com p {
   margin-left: 1rem;
 }
-/* Section hebergement + le aside*/
-#hebergements {
+/* Section hebergement + le aside populaire*/
+#accommodations {
   display: flex;
   justify-content: space-between;
 }
@@ -222,7 +220,7 @@ form i {
   margin-top: 4rem;
   font-weight: 800;
 }
-#lieu {
+#place {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -232,7 +230,7 @@ form i {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-#lieu figure {
+#place figure {
   width: 22rem;
   height: 18rem;
   border-radius: 2.5rem;
@@ -242,7 +240,7 @@ form i {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-#lieu figure img {
+#place figure img {
   width: 22rem;
   height: 11rem;
   object-fit: cover;
@@ -303,7 +301,7 @@ aside h2 {
   font-size: 2.1rem;
 }
 
-aside #populaire {
+aside #popular {
   height: 45rem;
   margin-top: 3rem;
   display: flex;
@@ -350,20 +348,20 @@ aside #populaire {
 }
 
 /*Section activés a Marseille*/
-#activites {
+#activities {
   margin-top: 5rem;
 }
-#activites h2 {
+#activities h2 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2.5rem;
 }
-#endroit {
+#place_to_see {
   display: flex;
 
   justify-content: space-between;
 }
-#endroit figcaption {
+#place_to_see figcaption {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 2rem;
