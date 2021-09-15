@@ -459,3 +459,53 @@ footer {
   text-decoration: none;
   color: black;
 }
+/*Media Quierie */
+/*1260px*/
+
+@media all and (max-width: 1260px) {
+  body {
+    width: auto;
+  }
+  #accommodations {
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  #article {
+    margin-top: 3rem;
+  }
+  #place_to_see {
+    width: auto;
+  }
+  .full {
+    width: 25rem;
+  }
+
+  .full img {
+    width: 25rem;
+  }
+  #duo {
+    width: 25rem;
+  }
+
+  #pomegue {
+    width: 25rem;
+  }
+
+  #pomegue img {
+    width: 25rem;
+  }
+  #frioul {
+    width: 25rem;
+  }
+
+  #frioul img {
+    width: 25rem;
+  }
+
+  .garde {
+    width: 25rem;
+  }
+  .garde img {
+    width: 25rem;
+  }
+}
