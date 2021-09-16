@@ -468,45 +468,49 @@ footer {
   }
   #accommodations {
     flex-direction: column-reverse;
-    justify-content: space-around;
   }
   #article {
     margin-top: 3rem;
+    width: 100%;
+    margin-right: 2rem;
+  }
+  #place {
+    justify-content: space-evenly;
   }
   #place_to_see {
     width: auto;
   }
   .full {
-    width: 25rem;
+    margin-right: 2rem;
   }
 
   .full img {
-    width: 25rem;
+    width: 100%;
   }
-  #duo {
-    width: 25rem;
+  .duo {
+    margin-right: 2rem;
   }
 
   #pomegue {
-    width: 25rem;
+    width: 100%;
   }
 
   #pomegue img {
-    width: 25rem;
+    width: 100%;
   }
   #frioul {
-    width: 25rem;
+    width: 100%;
   }
 
   #frioul img {
-    width: 25rem;
+    width: 100%;
   }
 
   .garde {
-    width: 25rem;
+    width: 100%;
   }
   .garde img {
-    width: 25rem;
+    width: 100%;
   }
 }
 /*futur Breakpoint*/
