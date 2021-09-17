@@ -529,3 +529,34 @@ footer {
     margin-left: 0rem;
   }
 }
+@media all and (max-width: 903px) {
+  #accommodations {
+    width: 38rem;
+    height: 100%;
+  }
+
+  #article {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    background-color: white;
+  }
+
+  #place {
+    height: 100%;
+    margin-bottom: 2rem;
+  }
+
+  #place figure {
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+  }
+  #place figure img {
+    width: 100%;
+    height: 10rem;
+  }
+  #article button {
+    background-color: white;
+  }
+}
