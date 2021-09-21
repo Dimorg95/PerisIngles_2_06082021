@@ -5,21 +5,28 @@ html {
 body {
   font-family: "Raleway", sans-serif;
 
-  padding: 4rem 5rem 4rem 5rem;
+  padding: 0rem 5rem 4rem 5rem;
 }
 /*Header*/
 header {
-  height: 8.5rem;
+  height: 10rem;
 }
 header nav {
+  height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav img {
   height: 4.5rem;
   width: 9.5rem;
   margin-top: -0.8rem;
+}
+
+#navigation {
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
@@ -35,8 +42,6 @@ nav a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
-  margin-top: 1rem;
-  padding-top: 3.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -48,13 +53,17 @@ nav a:hover {
 #accomodation {
   color: #0065fc;
   font-weight: 500;
+  padding-top: 3.8rem;
 }
 #to_register {
   color: #0065fc;
   font-weight: 700;
+  margin-bottom: 0.2rem;
+  line-height: 9.5rem;
 }
 #activity {
   font-weight: 500;
+  padding-top: 3.8rem;
 }
 /*Champ de recherche et preference*/
 /*Titre + petit paragraphe*/
@@ -152,7 +161,7 @@ form i {
   border: 0.2rem solid #dbdbdb;
   border-radius: 2.5rem;
   border-left: none;
-  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+  margin: 1.5rem 1.5rem 0rem 1.5rem;
 }
 
 #preference ul li a {
@@ -432,7 +441,7 @@ aside #popular {
 /*FOOTER*/
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 22rem;
   margin-top: 5rem;
   margin-left: -5rem;
@@ -644,10 +653,12 @@ footer {
   }
 }
 
-/*590/600px
-
-
-
+/*590/600px*/
+@media all and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+}
 
 /*A faire un urgence  Probleme sur la navigation
 */
@@ -667,4 +678,5 @@ Passer de la version existante a :
 Probleme mise en page responsive petit a petit, doute sur la facon de faire et la bonne methode!
 
 Réajuster la taille du contenue a la page ou reajuster la page (je ne sais pas)
-*/
+
+Bouton recherche a changer en icone ??*/
