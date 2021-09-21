@@ -651,3 +651,20 @@ footer {
 
 /*A faire un urgence  Probleme sur la navigation
 */
+
+/*Possible changement au niveau de la Nav (voir avec Arthur)
+Passer de la version existante a :
+<nav>
+<img>Logo
+<div>
+<ul>
+<li><a hebergement
+<li><a activité
+</ul>
+<a s'inscrire
+<div>
+
+Probleme mise en page responsive petit a petit, doute sur la facon de faire et la bonne methode!
+
+Réajuster la taille du contenue a la page ou reajuster la page (je ne sais pas)
+*/
