@@ -432,7 +432,7 @@ aside #popular {
 /*FOOTER*/
 footer {
   display: flex;
-  justify-content: left;
+  justify-content: space-around;
   height: 22rem;
   margin-top: 5rem;
   margin-left: -5rem;
@@ -567,7 +567,7 @@ footer {
     background-color: white;
   }
 }
-/*MQ 840pxl ajustage activités marseille*/
+/*MQ 840pxl ajustage activités marseille+Footer*/
 
 @media all and (max-width: 840px) {
   #place {
@@ -588,7 +588,7 @@ footer {
     align-items: center;
     width: auto;
     height: 100%;
-    margin: 3rem 2rem 2rem 2rem;
+    margin: 3rem 2rem 1.5rem 2rem;
   }
   .full {
     width: 100%;
@@ -632,7 +632,22 @@ footer {
     margin: 0rem;
     padding: 2rem 0rem 2rem 2rem;
   }
+
+  footer {
+    justify-content: flex-start;
+    height: auto;
+    margin-top: 0rem;
+  }
+
+  .liste {
+    margin-right: 5rem;
+  }
 }
 
-/*A faire un urgence descendre directement a 810 px pour le footer et Probleme sur la navigation
+/*590/600px
+
+
+
+
+/*A faire un urgence  Probleme sur la navigation
 */
