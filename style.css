@@ -655,6 +655,41 @@ footer {
 
 /*590/600px*/
 @media all and (max-width: 600px) {
+  #navigation {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  nav ul {
+    width: 100%;
+    margin-right: 10rem;
+  }
+
+  #accomodation {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    border-top: none;
+    border-bottom: 0.3rem solid #dbdbdb;
+  }
+
+  #activity {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    border-top: none;
+    border-bottom: 0.3rem solid #dbdbdb;
+  }
+
+  #to_register {
+    padding-left: 0rem;
+    margin-right: 7rem;
+  }
+
+  #preference {
+    border-top: none;
+    margin-top: 2rem;
+  }
+
   footer {
     flex-direction: column;
   }
