@@ -669,7 +669,7 @@ footer {
   #navigation {
     flex-direction: column-reverse;
     align-items: flex-end;
-    width: 100%;
+    width: 50%;
   }
 
   nav ul {
@@ -701,7 +701,7 @@ footer {
   #to_register {
     padding-left: 0rem;
     padding-right: 0rem;
-    margin-right: 10rem;
+    margin-right: 5rem;
     outline: transparent;
   }
   #to_register:hover {
@@ -731,7 +731,7 @@ footer {
     font-size: 1.8rem;
   }
 
-  #accomodations {
+  #accommodations {
     width: 100%;
   }
   aside {
