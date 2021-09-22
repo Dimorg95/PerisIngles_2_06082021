@@ -60,6 +60,7 @@ nav a:hover {
   font-weight: 700;
   margin-bottom: 0.2rem;
   line-height: 9.5rem;
+  outline: transparent;
 }
 #activity {
   font-weight: 500;
@@ -125,19 +126,25 @@ form i {
   margin: auto;
   padding-left: 1rem;
 }
+button {
+  border: none;
+  background-color: #0065fc;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  width: 13rem;
+}
 
 /*Boutton recherche*/
 #button {
-  width: 13rem;
-  height: 4.1rem;
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
   border: none;
   color: white;
   background-color: #0065fc;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 1.6rem;
+}
+#isearch {
+  display: none;
 }
 /*Liste de filtres et de preference*/
 #filter {
@@ -655,6 +662,10 @@ footer {
 
 /*590/600px*/
 @media all and (max-width: 600px) {
+  body {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+
   #navigation {
     flex-direction: column-reverse;
     align-items: flex-end;
@@ -664,6 +675,8 @@ footer {
   nav ul {
     width: 100%;
     margin-right: 10rem;
+    border-bottom: 0.3rem solid #dbdbdb;
+    padding-bottom: 1.2rem;
   }
 
   #accomodation {
@@ -672,26 +685,55 @@ footer {
     border-top: none;
     border-bottom: 0.3rem solid #dbdbdb;
   }
-
+  #accomodation:hover {
+    border-bottom: 0.3rem solid #0065fc;
+  }
   #activity {
     padding-top: 0rem;
     padding-bottom: 1rem;
     border-top: none;
     border-bottom: 0.3rem solid #dbdbdb;
   }
+  #activity:hover {
+    border-bottom: #0065fc 0.3rem solid;
+  }
 
   #to_register {
     padding-left: 0rem;
-    margin-right: 7rem;
+    padding-right: 0rem;
+    margin-right: 10rem;
+    outline: transparent;
+  }
+  #to_register:hover {
+    border-top: 0.3rem solid transparent;
   }
 
   #preference {
     border-top: none;
     margin-top: 2rem;
   }
+  form {
+    width: 100%;
+  }
+
+  button {
+    border-radius: 1.5rem;
+    width: auto;
+  }
+  #button {
+    display: none;
+  }
+
+  #isearch {
+    display: block;
+    margin: auto;
+    color: white;
+    font-size: 1.8rem;
+  }
 
   footer {
     flex-direction: column;
+    margin: 0rem -2rem 0rem -2rem;
   }
 }
 
