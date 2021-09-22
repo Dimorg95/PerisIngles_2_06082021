@@ -681,7 +681,7 @@ footer {
 
   #accomodation {
     padding-top: 0rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.99rem;
     border-top: none;
     border-bottom: 0.3rem solid #dbdbdb;
   }
@@ -690,7 +690,7 @@ footer {
   }
   #activity {
     padding-top: 0rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.99rem;
     border-top: none;
     border-bottom: 0.3rem solid #dbdbdb;
   }
@@ -729,6 +729,16 @@ footer {
     margin: auto;
     color: white;
     font-size: 1.8rem;
+  }
+
+  #accomodations {
+    width: 100%;
+  }
+  aside {
+    width: 100%;
+  }
+  #activities {
+    width: 100%;
   }
 
   footer {
