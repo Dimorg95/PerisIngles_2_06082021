@@ -530,9 +530,8 @@ footer {
     width: 100%;
   }
 }
-/*futur Breakpoint*/
 
-/*971px filtres etc etc + bien regarde la maquette iphone x*/
+/*971px filtres etc etc */
 
 @media all and (max-width: 971px) {
   #filter {
@@ -661,7 +660,7 @@ footer {
   }
 }
 
-/*590/600px*/
+/*600px*/
 @media all and (max-width: 600px) {
   body {
     padding: 0rem 2rem 0rem 2rem;
@@ -756,24 +755,3 @@ footer {
     margin: 0rem -2rem 0rem -2rem;
   }
 }
-
-/*A faire un urgence  Probleme sur la navigation
-*/
-
-/*Possible changement au niveau de la Nav (voir avec Arthur)
-Passer de la version existante a :
-<nav>
-<img>Logo
-<div>
-<ul>
-<li><a hebergement
-<li><a activité
-</ul>
-<a s'inscrire
-<div>
-
-Probleme mise en page responsive petit a petit, doute sur la facon de faire et la bonne methode!
-
-Réajuster la taille du contenue a la page ou reajuster la page (je ne sais pas)
-
-Bouton recherche a changer en icone ??*/
