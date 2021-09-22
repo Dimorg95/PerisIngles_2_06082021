@@ -678,6 +678,10 @@ footer {
     border-bottom: 0.3rem solid #dbdbdb;
     padding-bottom: 1.2rem;
   }
+  nav li {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
 
   #accomodation {
     padding-top: 0rem;
@@ -699,6 +703,7 @@ footer {
   }
 
   #to_register {
+    margin-top: 2rem;
     padding-left: 0rem;
     padding-right: 0rem;
     margin-right: 5rem;
@@ -710,7 +715,7 @@ footer {
 
   #preference {
     border-top: none;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   form {
     width: 100%;
@@ -736,6 +741,10 @@ footer {
   }
   aside {
     width: 100%;
+  }
+
+  aside h2 {
+    margin-left: 2rem;
   }
   #activities {
     width: 100%;
