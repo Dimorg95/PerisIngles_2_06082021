@@ -363,6 +363,12 @@ aside #popular {
   color: #dbdbdb;
 }
 
+#accommodations a {
+  text-decoration: none;
+}
+#accommodations a:focus {
+  outline: none;
+}
 /*Section activés a Marseille*/
 #activities {
   margin-top: 5rem;
@@ -444,6 +450,12 @@ aside #popular {
   object-fit: cover;
   border-top-left-radius: 2.5rem;
   border-top-right-radius: 2.5rem;
+}
+#place_to_see a {
+  text-decoration: none;
+}
+#place_to_see a:focus {
+  outline: none;
 }
 /*FOOTER*/
 footer {
