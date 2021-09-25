@@ -512,6 +512,20 @@ footer {
   #place {
     justify-content: space-evenly;
   }
+  aside {
+    width: 100%;
+  }
+
+  aside #popular a {
+    width: 80%;
+  }
+
+  .popu {
+    width: 100%;
+  }
+  .popu img {
+    width: 30rem;
+  }
   #place_to_see {
     width: auto;
   }
