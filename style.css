@@ -461,6 +461,9 @@ aside #popular a {
 #place_to_see a:focus {
   outline: none;
 }
+#place_to_see h3 {
+  color: black;
+}
 /*FOOTER*/
 footer {
   display: flex;
