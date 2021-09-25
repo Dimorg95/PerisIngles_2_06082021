@@ -135,7 +135,7 @@ button {
 }
 
 /*Boutton recherche*/
-button p {
+button span {
   color: white;
   font-size: 1.6rem;
 }
@@ -734,7 +734,7 @@ footer {
     border-radius: 1.5rem;
     width: auto;
   }
-  button p {
+  button span {
     display: none;
   }
 
