@@ -515,6 +515,11 @@ footer {
   aside {
     width: 100%;
   }
+  aside h2 {
+    width: 80%;
+    margin-left: 11rem;
+    justify-content: space-between;
+  }
 
   aside #popular a {
     width: 80%;
@@ -531,13 +536,18 @@ footer {
   }
   .full {
     margin-right: 2rem;
+    width: 95%;
   }
 
   .full img {
     width: 100%;
   }
+  .full_l {
+    width: 25%;
+  }
   .duo {
     margin-right: 2rem;
+    width: 25%;
   }
 
   #pomegue {
