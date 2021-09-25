@@ -135,14 +135,11 @@ button {
 }
 
 /*Boutton recherche*/
-#button {
-  border: none;
+button p {
   color: white;
-  background-color: #0065fc;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
   font-size: 1.6rem;
 }
+
 #isearch {
   display: none;
 }
@@ -737,7 +734,7 @@ footer {
     border-radius: 1.5rem;
     width: auto;
   }
-  #button {
+  button p {
     display: none;
   }
 
