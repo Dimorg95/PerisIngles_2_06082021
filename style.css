@@ -624,19 +624,8 @@ footer {
   #article button {
     background-color: white;
   }
-}
-
-/*MQ 840pxl ajustage activités marseille+Footer*/
-
-@media all and (max-width: 840px) {
-  #place {
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-
   #activities {
-    width: 38rem;
+    width: 100%;
   }
   #activities h2 {
     margin-left: 2rem;
@@ -649,47 +638,63 @@ footer {
     height: 100%;
     margin: 3rem 2rem 1.5rem 2rem;
   }
+  .full_l {
+    width: 100%;
+  }
   .full {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin-right: 0rem;
   }
   .full img {
-    height: 13rem;
+    height: 18rem;
   }
   .duo {
     width: 100%;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 13rem;
     margin-right: 0rem;
   }
   #pomegue {
     height: auto;
+    margin-bottom: 3rem;
   }
 
   #pomegue img {
-    height: 13rem;
+    height: 18rem;
   }
 
   #frioul {
     height: auto;
+    margin-bottom: 3rem;
   }
 
   #frioul img {
-    height: 13rem;
+    height: 18rem;
   }
 
   .garde {
     height: auto;
+    margin-bottom: 3rem;
   }
 
   .garde img {
-    height: 13rem;
+    height: 18rem;
   }
 
   #place_to_see figcaption {
     margin: 0rem;
     padding: 2rem 0rem 2rem 2rem;
+  }
+}
+
+/*MQ 840pxl ajustage activités marseille+Footer*/
+
+@media all and (max-width: 840px) {
+  #place {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
   }
 
   footer {
@@ -718,7 +723,7 @@ footer {
   nav ul {
     width: 100%;
     margin-right: 10rem;
-    border-bottom: 0.3rem solid #dbdbdb;
+
     padding-bottom: 1.2rem;
   }
   nav li {
