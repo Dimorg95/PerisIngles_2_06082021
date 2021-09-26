@@ -304,7 +304,6 @@ aside {
   border-radius: 2.5rem;
 }
 aside h2 {
-  margin-left: 4rem;
   font-size: 2rem;
   margin-top: 4rem;
   font-weight: 800;
@@ -514,11 +513,6 @@ footer {
   }
   aside {
     width: 100%;
-  }
-  aside h2 {
-    width: 80%;
-    margin-left: 11rem;
-    justify-content: space-between;
   }
 
   aside #popular a {
